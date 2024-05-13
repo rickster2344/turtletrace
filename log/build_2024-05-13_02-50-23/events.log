@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.014522] (moveTurtle) JobQueued: {'identifier': 'moveTurtle', 'dependencies': OrderedDict()}
+[0.014612] (trace_interfaces) JobQueued: {'identifier': 'trace_interfaces', 'dependencies': OrderedDict()}
+[0.014643] (moveTurtle) JobStarted: {'identifier': 'moveTurtle'}
+[0.099688] (-) TimerEvent: {}
+[0.201684] (-) TimerEvent: {}
+[0.309729] (-) TimerEvent: {}
+[0.431598] (-) TimerEvent: {}
+[0.551256] (-) TimerEvent: {}
+[0.658835] (-) TimerEvent: {}
+[0.779554] (-) TimerEvent: {}
+[0.894716] (-) TimerEvent: {}
+[0.997399] (-) TimerEvent: {}
+[1.127200] (-) TimerEvent: {}
+[1.241081] (-) TimerEvent: {}
+[1.386882] (-) TimerEvent: {}
+[1.508639] (-) TimerEvent: {}
+[1.616372] (-) TimerEvent: {}
+[1.744300] (-) TimerEvent: {}
+[1.856017] (-) TimerEvent: {}
+[1.980322] (-) TimerEvent: {}
+[2.095218] (-) TimerEvent: {}
+[2.205905] (-) TimerEvent: {}
+[2.325027] (-) TimerEvent: {}
+[2.429411] (-) TimerEvent: {}
+[2.546912] (-) TimerEvent: {}
+[2.657297] (-) TimerEvent: {}
+[2.765282] (-) TimerEvent: {}
+[2.887081] (-) TimerEvent: {}
+[2.990525] (-) TimerEvent: {}
+[3.103298] (-) TimerEvent: {}
+[3.222262] (-) TimerEvent: {}
+[3.349683] (-) TimerEvent: {}
+[3.461402] (-) TimerEvent: {}
+[3.565861] (-) TimerEvent: {}
+[3.713168] (-) TimerEvent: {}
+[3.831716] (-) TimerEvent: {}
+[3.965644] (-) TimerEvent: {}
+[4.088289] (-) TimerEvent: {}
+[4.210287] (-) TimerEvent: {}
+[4.317519] (-) TimerEvent: {}
+[4.433991] (-) TimerEvent: {}
+[4.559642] (-) TimerEvent: {}
+[4.661722] (-) TimerEvent: {}
+[4.770844] (-) TimerEvent: {}
+[4.896497] (-) TimerEvent: {}
+[5.001857] (-) TimerEvent: {}
+[5.106965] (-) TimerEvent: {}
+[5.213223] (-) TimerEvent: {}
+[5.323420] (-) TimerEvent: {}
+[5.435498] (-) TimerEvent: {}
+[5.544348] (-) TimerEvent: {}
+[5.568555] (moveTurtle) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/moveTurtle', 'build', '--build-base', '/home/thatguyrick/turtlews/build/moveTurtle/build', 'install', '--record', '/home/thatguyrick/turtlews/build/moveTurtle/install.log', '--single-version-externally-managed'], 'cwd': '/home/thatguyrick/turtlews/src/moveTurtle', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thatguyrick', 'GIO_MODULE_DIR': '/home/thatguyrick/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/thatguyrick', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/thatguyrick/turtlews/src/trace_interfaces/srv', 'TERM_PROGRAM_VERSION': '1.89.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/159/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/thatguyrick/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/159/usr/share/code/code', 'MANAGERPID': '1771', 'SYSTEMD_EXEC_PID': '1937', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4779', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'thatguyrick', 'JOURNAL_STREAM': '8:27117', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'thatguyrick', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1898,unix/Ubuntu:/tmp/.ICE-unix/1898', 'GTK_EXE_PREFIX': '/snap/code/159/usr', 'INVOCATION_ID': 'ea062285c53d4dfdad39c4f9c2e332ac', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/159/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/thatguyrick/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LB53M2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6550ae5830.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/thatguyrick/snap/code/159/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thatguyrick/turtlews/build/moveTurtle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/thatguyrick/snap/code/159/.local/share:/home/thatguyrick/snap/code/159:/snap/code/159/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thatguyrick/turtlews/build/moveTurtle/prefix_override:/home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.654782] (-) TimerEvent: {}
+[5.756197] (-) TimerEvent: {}
+[5.876534] (-) TimerEvent: {}
+[5.996854] (-) TimerEvent: {}
+[6.097523] (-) TimerEvent: {}
+[6.215021] (-) TimerEvent: {}
+[6.358074] (-) TimerEvent: {}
+[6.479787] (-) TimerEvent: {}
+[6.609161] (-) TimerEvent: {}
+[6.721264] (-) TimerEvent: {}
+[6.839722] (-) TimerEvent: {}
+[6.940745] (-) TimerEvent: {}
+[7.054369] (-) TimerEvent: {}
+[7.160811] (-) TimerEvent: {}
+[7.280837] (-) TimerEvent: {}
+[7.281169] (moveTurtle) StdoutLine: {'line': b'running egg_info\n'}
+[7.282988] (moveTurtle) StdoutLine: {'line': b'creating ../../build/moveTurtle/moveTurtle.egg-info\n'}
+[7.284109] (moveTurtle) StdoutLine: {'line': b'writing ../../build/moveTurtle/moveTurtle.egg-info/PKG-INFO\n'}
+[7.284895] (moveTurtle) StdoutLine: {'line': b'writing dependency_links to ../../build/moveTurtle/moveTurtle.egg-info/dependency_links.txt\n'}
+[7.285872] (moveTurtle) StdoutLine: {'line': b'writing entry points to ../../build/moveTurtle/moveTurtle.egg-info/entry_points.txt\n'}
+[7.291708] (moveTurtle) StdoutLine: {'line': b'writing requirements to ../../build/moveTurtle/moveTurtle.egg-info/requires.txt\n'}
+[7.293299] (moveTurtle) StdoutLine: {'line': b'writing top-level names to ../../build/moveTurtle/moveTurtle.egg-info/top_level.txt\n'}
+[7.295487] (moveTurtle) StdoutLine: {'line': b"writing manifest file '../../build/moveTurtle/moveTurtle.egg-info/SOURCES.txt'\n"}
+[7.312159] (moveTurtle) StdoutLine: {'line': b"reading manifest file '../../build/moveTurtle/moveTurtle.egg-info/SOURCES.txt'\n"}
+[7.312888] (moveTurtle) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.314263] (moveTurtle) StdoutLine: {'line': b"writing manifest file '../../build/moveTurtle/moveTurtle.egg-info/SOURCES.txt'\n"}
+[7.317034] (moveTurtle) StdoutLine: {'line': b'running build\n'}
+[7.319828] (moveTurtle) StdoutLine: {'line': b'running build_py\n'}
+[7.322708] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/build/moveTurtle/build\n'}
+[7.327155] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/build/moveTurtle/build/lib\n'}
+[7.327742] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle\n'}
+[7.328385] (moveTurtle) StdoutLine: {'line': b'copying moveTurtle/__init__.py -> /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle\n'}
+[7.329053] (moveTurtle) StdoutLine: {'line': b'copying moveTurtle/moveNode.py -> /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle\n'}
+[7.329724] (moveTurtle) StdoutLine: {'line': b'copying moveTurtle/mouseMonitor.py -> /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle\n'}
+[7.334917] (moveTurtle) StdoutLine: {'line': b'running install\n'}
+[7.373135] (moveTurtle) StdoutLine: {'line': b'running install_lib\n'}
+[7.373531] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle\n'}
+[7.374554] (moveTurtle) StdoutLine: {'line': b'copying /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle/__init__.py -> /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle\n'}
+[7.375325] (moveTurtle) StdoutLine: {'line': b'copying /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle/moveNode.py -> /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle\n'}
+[7.377061] (moveTurtle) StdoutLine: {'line': b'copying /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle/mouseMonitor.py -> /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle\n'}
+[7.377370] (moveTurtle) StdoutLine: {'line': b'byte-compiling /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle/__init__.py to __init__.cpython-310.pyc\n'}
+[7.378269] (moveTurtle) StdoutLine: {'line': b'byte-compiling /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle/moveNode.py to moveNode.cpython-310.pyc\n'}
+[7.378972] (moveTurtle) StdoutLine: {'line': b'byte-compiling /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle/mouseMonitor.py to mouseMonitor.cpython-310.pyc\n'}
+[7.379837] (moveTurtle) StdoutLine: {'line': b'running install_data\n'}
+[7.381550] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index\n'}
+[7.381958] (-) TimerEvent: {}
+[7.382691] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index/resource_index\n'}
+[7.383257] (moveTurtle) StdoutLine: {'line': b'creating /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index/resource_index/packages\n'}
+[7.383775] (moveTurtle) StdoutLine: {'line': b'copying resource/moveTurtle -> /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index/resource_index/packages\n'}
+[7.392206] (moveTurtle) StdoutLine: {'line': b'copying package.xml -> /home/thatguyrick/turtlews/install/moveTurtle/share/moveTurtle\n'}
+[7.393021] (moveTurtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.399092] (moveTurtle) StdoutLine: {'line': b'Copying ../../build/moveTurtle/moveTurtle.egg-info to /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle-0.0.0-py3.10.egg-info\n'}
+[7.411909] (moveTurtle) StdoutLine: {'line': b'running install_scripts\n'}
+[7.493440] (-) TimerEvent: {}
+[7.512436] (moveTurtle) StdoutLine: {'line': b"writing list of installed files to '/home/thatguyrick/turtlews/build/moveTurtle/install.log'\n"}
+[7.602316] (-) TimerEvent: {}
+[7.633248] (moveTurtle) CommandEnded: {'returncode': 0}
+[7.702748] (-) TimerEvent: {}
+[7.814548] (-) TimerEvent: {}
+[7.933418] (-) TimerEvent: {}
+[7.958753] (moveTurtle) JobEnded: {'identifier': 'moveTurtle', 'rc': 0}
+[7.961743] (trace_interfaces) JobStarted: {'identifier': 'trace_interfaces'}
+[8.038797] (-) TimerEvent: {}
+[8.153762] (-) TimerEvent: {}
+[8.270571] (-) TimerEvent: {}
+[8.285285] (trace_interfaces) JobProgress: {'identifier': 'trace_interfaces', 'progress': 'cmake'}
+[8.285640] (trace_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/thatguyrick/turtlews/src/trace_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/thatguyrick/turtlews/install/trace_interfaces'], 'cwd': '/home/thatguyrick/turtlews/build/trace_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thatguyrick'), ('GIO_MODULE_DIR', '/home/thatguyrick/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thatguyrick'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/thatguyrick/turtlews/src/trace_interfaces/srv'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/159/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thatguyrick/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/159/usr/share/code/code'), ('MANAGERPID', '1771'), ('SYSTEMD_EXEC_PID', '1937'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4779'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thatguyrick'), ('JOURNAL_STREAM', '8:27117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'thatguyrick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1898,unix/Ubuntu:/tmp/.ICE-unix/1898'), ('GTK_EXE_PREFIX', '/snap/code/159/usr'), ('INVOCATION_ID', 'ea062285c53d4dfdad39c4f9c2e332ac'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/159/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/thatguyrick/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LB53M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6550ae5830.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thatguyrick/snap/code/159/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thatguyrick/turtlews/build/trace_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thatguyrick/snap/code/159/.local/share:/home/thatguyrick/snap/code/159:/snap/code/159/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.373430] (-) TimerEvent: {}
+[8.477351] (-) TimerEvent: {}
+[8.604949] (-) TimerEvent: {}
+[8.716062] (-) TimerEvent: {}
+[8.845093] (-) TimerEvent: {}
+[8.959131] (-) TimerEvent: {}
+[9.073188] (-) TimerEvent: {}
+[9.136374] (trace_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[9.179508] (-) TimerEvent: {}
+[9.289427] (-) TimerEvent: {}
+[9.396780] (-) TimerEvent: {}
+[9.506305] (-) TimerEvent: {}
+[9.626355] (-) TimerEvent: {}
+[9.674004] (trace_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.722814] (trace_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.732307] (-) TimerEvent: {}
+[9.842959] (-) TimerEvent: {}
+[9.946552] (-) TimerEvent: {}
+[10.067668] (-) TimerEvent: {}
+[10.125633] (trace_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.174318] (trace_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.175114] (-) TimerEvent: {}
+[10.178747] (trace_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.182291] (trace_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.197587] (trace_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.277202] (-) TimerEvent: {}
+[10.390208] (-) TimerEvent: {}
+[10.517404] (-) TimerEvent: {}
+[10.627564] (-) TimerEvent: {}
+[10.726527] (trace_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.728269] (-) TimerEvent: {}
+[10.782926] (trace_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.783953] (trace_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.792702] (trace_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.837445] (-) TimerEvent: {}
+[10.842206] (trace_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.949114] (-) TimerEvent: {}
+[11.051293] (-) TimerEvent: {}
+[11.161656] (-) TimerEvent: {}
+[11.268510] (-) TimerEvent: {}
+[11.387531] (-) TimerEvent: {}
+[11.498586] (-) TimerEvent: {}
+[11.613308] (-) TimerEvent: {}
+[11.724194] (-) TimerEvent: {}
+[11.831704] (-) TimerEvent: {}
+[11.838251] (trace_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[11.948487] (-) TimerEvent: {}
+[12.082516] (-) TimerEvent: {}
+[12.188340] (-) TimerEvent: {}
+[12.299204] (-) TimerEvent: {}
+[12.306381] (trace_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.539144] (-) TimerEvent: {}
+[12.648962] (-) TimerEvent: {}
+[12.758328] (-) TimerEvent: {}
+[12.865270] (-) TimerEvent: {}
+[12.987572] (-) TimerEvent: {}
+[13.088436] (-) TimerEvent: {}
+[13.192993] (-) TimerEvent: {}
+[13.220254] (trace_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.228969] (trace_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.264362] (trace_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.321765] (-) TimerEvent: {}
+[13.389991] (trace_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[13.390245] (trace_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/thatguyrick/turtlews/build/trace_interfaces\n'}
+[13.390368] (trace_interfaces) CommandEnded: {'returncode': 0}
+[13.391021] (trace_interfaces) JobProgress: {'identifier': 'trace_interfaces', 'progress': 'build'}
+[13.395231] (trace_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thatguyrick/turtlews/build/trace_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/thatguyrick/turtlews/build/trace_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thatguyrick'), ('GIO_MODULE_DIR', '/home/thatguyrick/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thatguyrick'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/thatguyrick/turtlews/src/trace_interfaces/srv'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/159/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thatguyrick/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/159/usr/share/code/code'), ('MANAGERPID', '1771'), ('SYSTEMD_EXEC_PID', '1937'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4779'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thatguyrick'), ('JOURNAL_STREAM', '8:27117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'thatguyrick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1898,unix/Ubuntu:/tmp/.ICE-unix/1898'), ('GTK_EXE_PREFIX', '/snap/code/159/usr'), ('INVOCATION_ID', 'ea062285c53d4dfdad39c4f9c2e332ac'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/159/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/thatguyrick/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LB53M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6550ae5830.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thatguyrick/snap/code/159/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thatguyrick/turtlews/build/trace_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thatguyrick/snap/code/159/.local/share:/home/thatguyrick/snap/code/159:/snap/code/159/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.432908] (-) TimerEvent: {}
+[13.548978] (-) TimerEvent: {}
+[13.573005] (trace_interfaces) CommandEnded: {'returncode': 0}
+[13.649162] (-) TimerEvent: {}
+[13.709648] (trace_interfaces) JobProgress: {'identifier': 'trace_interfaces', 'progress': 'install'}
+[13.749039] (trace_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thatguyrick/turtlews/build/trace_interfaces'], 'cwd': '/home/thatguyrick/turtlews/build/trace_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thatguyrick'), ('GIO_MODULE_DIR', '/home/thatguyrick/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thatguyrick'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/thatguyrick/turtlews/src/trace_interfaces/srv'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/159/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thatguyrick/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/159/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/159/usr/share/code/code'), ('MANAGERPID', '1771'), ('SYSTEMD_EXEC_PID', '1937'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4779'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thatguyrick'), ('JOURNAL_STREAM', '8:27117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'thatguyrick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1898,unix/Ubuntu:/tmp/.ICE-unix/1898'), ('GTK_EXE_PREFIX', '/snap/code/159/usr'), ('INVOCATION_ID', 'ea062285c53d4dfdad39c4f9c2e332ac'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/159/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/thatguyrick/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LB53M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6550ae5830.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thatguyrick/snap/code/159/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thatguyrick/turtlews/build/trace_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thatguyrick/snap/code/159/.local/share:/home/thatguyrick/snap/code/159:/snap/code/159/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.749916] (-) TimerEvent: {}
+[13.780274] (trace_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.780987] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/ament_index/resource_index/package_run_dependencies/trace_interfaces\n'}
+[13.781534] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/ament_index/resource_index/parent_prefix_path/trace_interfaces\n'}
+[13.782408] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/ament_prefix_path.sh\n'}
+[13.782874] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.783344] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/path.sh\n'}
+[13.783903] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/path.dsv\n'}
+[13.784433] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.bash\n'}
+[13.784915] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.sh\n'}
+[13.785395] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.zsh\n'}
+[13.789000] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.dsv\n'}
+[13.789547] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/package.dsv\n'}
+[13.790104] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/ament_index/resource_index/packages/trace_interfaces\n'}
+[13.790616] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/cmake/trace_interfacesConfig.cmake\n'}
+[13.791287] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/cmake/trace_interfacesConfig-version.cmake\n'}
+[13.791801] (trace_interfaces) StdoutLine: {'line': b'-- Installing: /home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/package.xml\n'}
+[13.831654] (trace_interfaces) CommandEnded: {'returncode': 0}
+[13.858903] (-) TimerEvent: {}
+[13.993401] (-) TimerEvent: {}
+[14.101848] (-) TimerEvent: {}
+[14.209650] (-) TimerEvent: {}
+[14.338872] (-) TimerEvent: {}
+[14.472054] (-) TimerEvent: {}
+[14.590111] (-) TimerEvent: {}
+[14.698990] (-) TimerEvent: {}
+[14.751735] (trace_interfaces) JobEnded: {'identifier': 'trace_interfaces', 'rc': 0}
+[14.752888] (-) EventReactorShutdown: {}

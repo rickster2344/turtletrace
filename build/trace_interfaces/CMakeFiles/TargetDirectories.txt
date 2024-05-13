@@ -1,0 +1,9 @@
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/uninstall.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/trace_interfaces_uninstall.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/test.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/edit_cache.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/rebuild_cache.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/list_install_components.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/install.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/install/local.dir
+/home/thatguyrick/turtlews/build/trace_interfaces/CMakeFiles/install/strip.dir

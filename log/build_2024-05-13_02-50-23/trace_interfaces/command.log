@@ -1,0 +1,6 @@
+Invoking command in '/home/thatguyrick/turtlews/build/trace_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thatguyrick/turtlews/src/trace_interfaces -DCMAKE_INSTALL_PREFIX=/home/thatguyrick/turtlews/install/trace_interfaces
+Invoked command in '/home/thatguyrick/turtlews/build/trace_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thatguyrick/turtlews/src/trace_interfaces -DCMAKE_INSTALL_PREFIX=/home/thatguyrick/turtlews/install/trace_interfaces
+Invoking command in '/home/thatguyrick/turtlews/build/trace_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thatguyrick/turtlews/build/trace_interfaces -- -j1 -l1
+Invoked command in '/home/thatguyrick/turtlews/build/trace_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thatguyrick/turtlews/build/trace_interfaces -- -j1 -l1
+Invoking command in '/home/thatguyrick/turtlews/build/trace_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thatguyrick/turtlews/build/trace_interfaces
+Invoked command in '/home/thatguyrick/turtlews/build/trace_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thatguyrick/turtlews/build/trace_interfaces

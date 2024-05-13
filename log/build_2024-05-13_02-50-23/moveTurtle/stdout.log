@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/moveTurtle/moveTurtle.egg-info
+writing ../../build/moveTurtle/moveTurtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/moveTurtle/moveTurtle.egg-info/dependency_links.txt
+writing entry points to ../../build/moveTurtle/moveTurtle.egg-info/entry_points.txt
+writing requirements to ../../build/moveTurtle/moveTurtle.egg-info/requires.txt
+writing top-level names to ../../build/moveTurtle/moveTurtle.egg-info/top_level.txt
+writing manifest file '../../build/moveTurtle/moveTurtle.egg-info/SOURCES.txt'
+reading manifest file '../../build/moveTurtle/moveTurtle.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/moveTurtle/moveTurtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thatguyrick/turtlews/build/moveTurtle/build
+creating /home/thatguyrick/turtlews/build/moveTurtle/build/lib
+creating /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle
+copying moveTurtle/__init__.py -> /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle
+copying moveTurtle/moveNode.py -> /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle
+copying moveTurtle/mouseMonitor.py -> /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle
+running install
+running install_lib
+creating /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle
+copying /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle/__init__.py -> /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle
+copying /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle/moveNode.py -> /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle
+copying /home/thatguyrick/turtlews/build/moveTurtle/build/lib/moveTurtle/mouseMonitor.py -> /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle
+byte-compiling /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle/moveNode.py to moveNode.cpython-310.pyc
+byte-compiling /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle/mouseMonitor.py to mouseMonitor.cpython-310.pyc
+running install_data
+creating /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index
+creating /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index/resource_index
+creating /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index/resource_index/packages
+copying resource/moveTurtle -> /home/thatguyrick/turtlews/install/moveTurtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/thatguyrick/turtlews/install/moveTurtle/share/moveTurtle
+running install_egg_info
+Copying ../../build/moveTurtle/moveTurtle.egg-info to /home/thatguyrick/turtlews/install/moveTurtle/lib/python3.10/site-packages/moveTurtle-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/thatguyrick/turtlews/build/moveTurtle/install.log'

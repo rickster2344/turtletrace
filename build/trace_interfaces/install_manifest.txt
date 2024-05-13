@@ -1,0 +1,15 @@
+/home/thatguyrick/turtlews/install/trace_interfaces/share/ament_index/resource_index/package_run_dependencies/trace_interfaces
+/home/thatguyrick/turtlews/install/trace_interfaces/share/ament_index/resource_index/parent_prefix_path/trace_interfaces
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/ament_prefix_path.sh
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/ament_prefix_path.dsv
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/path.sh
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/environment/path.dsv
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.bash
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.sh
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.zsh
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/local_setup.dsv
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/package.dsv
+/home/thatguyrick/turtlews/install/trace_interfaces/share/ament_index/resource_index/packages/trace_interfaces
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/cmake/trace_interfacesConfig.cmake
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/cmake/trace_interfacesConfig-version.cmake
+/home/thatguyrick/turtlews/install/trace_interfaces/share/trace_interfaces/package.xml
